@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.4 (381) - http://www.bohemiancoding.com/sketch -->
+    <title>remove</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path id="path-1" d="M0,0.0632061069 L79.9349618,0.0632061069 L79.9349618,80 L0,80 L0,0.0632061069 Z"></path>
+        <path id="path-3" d="M0,0.0632061069 L79.9349618,0.0632061069 L79.9349618,80 L0,80 L0,0.0632061069 Z"></path>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="FAQ" sketch:type="MSArtboardGroup" transform="translate(-760.000000, -1216.000000)">
+            <g id="Top-Questions" sketch:type="MSLayerGroup" transform="translate(230.000000, 1026.000000)">
+                <g id="q" transform="translate(500.000000, 160.000000)">
+                    <g id="remove" transform="translate(20.000000, 20.000000)">
+                        <rect id="Rectangle-324" fill-opacity="0" fill="#D8D8D8" sketch:type="MSShapeGroup" x="0" y="0" width="100" height="100"></rect>
+                        <g id="Page-1" transform="translate(10.000000, 10.000000)">
+                            <path d="M16.4655878,75.2999695 L36.5629924,55.2022595 L9.39963359,28.0389008 L27.9755115,9.46332824 L55.1388702,36.626687 L75.2350534,16.5301985 L75.2341374,75.2981374 L16.4655878,75.2999695 Z" id="Fill-1" fill="#E8312C" sketch:type="MSShapeGroup"></path>
+                            <path d="M11.7655573,70.5996336 L31.8629618,50.502229 L4.69960305,23.3388702 L23.2754809,4.76329771 L50.4388397,31.9266565 L70.5350229,11.8301679 L70.5341069,70.5981069 L11.7655573,70.5996336 Z" id="Fill-3" fill="#E8312C" sketch:type="MSShapeGroup"></path>
+                            <g id="Group-7">
+                                <mask id="mask-2" sketch:name="Clip 6" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-6"></g>
+                                <path d="M7.06552672,65.8996336 L27.1629313,45.8019237 L-0.000122137405,18.6388702 L18.5754504,0.0632977099 L45.7385038,27.2266565 L65.8349924,7.13016794 L65.8340763,65.8981069 L7.06552672,65.8996336 Z" id="Fill-5" fill="#E8312C" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                            </g>
+                            <g id="Group-10">
+                                <mask id="mask-4" sketch:name="Clip 9" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <g id="Clip-9"></g>
+                                <path d="M21.1656183,80 L41.2630229,59.9022901 L14.0996641,32.7389313 L32.6752366,14.1633588 L59.8389008,41.3267176 L79.935084,21.2305344 L79.9341679,79.9984733 L21.1656183,80 Z" id="Fill-8" fill="#F64343" sketch:type="MSShapeGroup" mask="url(#mask-4)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

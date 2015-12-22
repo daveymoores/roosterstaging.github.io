@@ -1,0 +1,569 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Roosterbank</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:domain" content=""/>
+    <meta name="twitter:image:src" content=""/>
+    <meta name="twitter:creator" content=""/>
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+  </head>
+  <body>
+
+     <header>
+
+       <div class="logo">
+          <!--START white header content with app buttons-->
+
+            <div class="logo__container left"><!--roosterbank logo-->
+               <a href="#_" class="hide-for-small"><img src="./img/roostermoney_icons/roostermoney-logo.svg" alt="Rooster Money Logo"></a>
+               <a href="#_" class="show-for-small-only"><img src="./img/roostermoney_icons/logo-mobile.svg" alt="Rooster Money Logo"></a>
+            </div>
+
+            <!--START everything in the app button grey box-->
+            <div class="logo__apps row right">
+               <div class="large-4 medium-4 small-12 columns">
+                  <p>Get the app for free</p>
+               </div>
+               <div class="large-4 medium-4 small-6 columns">
+                  <a href="#_" target="_blank" class="btn logo__apps--appstore"><span class="icon"></span>AppStore</a>
+               </div>
+               <div class="large-4  medium-4 small-6 columns">
+                  <a href="#_" target="_blank" class="btn logo__apps--playstore"><span class="icon"></span> Play Store</a>
+               </div>
+            </div>
+            <!--END everything in the app button grey box-->
+            <div class="clearfix cf"></div>
+         <!--END white header section with app buttons-->
+        </div>
+
+        <!--navigation bar-->
+        <nav class="top-bar" data-topbar role="navigation" id="jsNavParent">
+
+            <ul class="title-area">
+               <li class="name"></li>
+              <li class="toggle-topbar" id="jsMobHook">
+                    <a href="#">
+                     <div id="nav-icon">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                     </div>
+                  </a>
+               </li>
+            </ul>
+
+            <!-- <div class="navigation navigation__container"> -->
+
+               <section class="top-bar-section navigation navigation__container">
+
+                  <!--add disabled class to list item of current page to disable animation-->
+                 <ul class="navigation__list" id="jsNavigationHook">
+                    <!--keep this without formatting to prevent gaps that appear with inline styles-->
+                   <li class="navigation__list--lightblue"><a href="/"><span class="icon icon--about"></span><span>About Us</span></a></li><li class="navigation__list--orange"><a href="/help.html"><span class="icon icon--help"></span><span>Help</span></a></li><li class="navigation__list--green"><a href="/resources.html"><span class="icon icon--resources"></span><span>Resources</span></a></li><li class="navigation__list--darkblue"><a href="/blog.html"><span class="icon icon--blog"></span><span>Blog</span></a></li><li class="navigation__list--yellow disable"><a href="/contact.html"><span class="icon icon--contact"></span><span>Contact</span></a></li>
+                 </ul>
+
+               </section>
+
+            <!-- </div> -->
+        </nav>
+        <!--END navigation bar-->
+
+
+        <!--START hero section-->
+        <!--NOTE - append name to end of class for different hero bg-->
+        <!--OPTIONS - --about, --help, --resources, --blog, --contact -->
+        <section class="hero">
+           <div class="hero__container hero__container--contact">
+
+             <div class="hero__container--copy">
+               <h1>Say Hello</h1>
+             </div>
+
+           </div>
+        </section>
+        <!--END hero section-->
+
+     </header>
+
+     <section class="content">
+
+        <!--thinner content for FAQs-->
+        <article class="row">
+
+           <div class="large-10 medium-10 small-11 large-centered medium-centered small-centered columns">
+
+             <h1>This is an H1</h1>
+             <h2>This is an H2</h2>
+             <h3>This is an H3</h3>
+             <h4>This is an H4</h4>
+             <h5>This is an H5</h5>
+             <h6>This is an H6</h6>
+
+             <blockquote class="quote"><span class="quote__speechmark"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</blockquote>
+
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+           </div>
+
+        </article>
+
+
+
+
+        <!--START all form elements-->
+        <article class="row">
+
+           <div class="large-7 medium-7 columns">
+
+             <form class="form" data-abide>
+              <div class="row">
+                <div class="large-12 columns name-field">
+                  <label>Name<small>required</small>
+                    <input type="text" placeholder="Name" required pattern="[a-zA-Z]+"/>
+                    <small class="error">Name is required</small>
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="large-12 columns email-field">
+                 <label>Email<small>required</small>
+                    <input type="email" placeholder="Email" required/>
+                    <small class="error">An email address is required.</small>
+                 </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="large-12 columns name-field">
+                 <label>Subject<small>required</small>
+                    <input type="text" placeholder="Subject" required/>
+                    <small class="error">Subject is required.</small>
+                 </label>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="large-12 columns name-field">
+                  <label>Your Message<small>required</small>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <small class="error">A message is required.</small>
+                  </label>
+                </div>
+              </div>
+
+              <input type="submit" class="btn blue" value="Submit">
+
+            </form>
+
+           </div>
+
+           <div class="large-4 medium-5 large-offset-1 columns">
+
+             <form class="form newsletter" data-abide>
+
+                <div class="newsletter">
+                   <p>Sign up for free resources and updates</p>
+                    <div class="row">
+                      <div class="large-12 columns email-field">
+                        <label>Email
+                          <input type="text" placeholder="Email" required/>
+                          <small class="error">An email address is required.</small>
+                        </label>
+                      </div>
+                    </div>
+                 </div>
+
+                 <input type="submit" class="btn green" value="Join!">
+
+            </form>
+
+            <div class="followus">
+
+               <p>Follow Us!</p>
+
+               <ul class="followus__list">
+                  <li><a href="#_" class="btn rounded round darkblue"><img class="facebook" src="./img/social/facebook.svg" alt="Follow us on Facebook"></a></li>
+                  <li><a href="#_" class="btn rounded round rust"><img class="instagram" src="./img/social/instagram.svg" alt="Follow us on Instagram"></a></li>
+                  <li><a href="#_" class="btn rounded round blue"><img class="twitter" src="./img/social/twitter.svg" alt="Follow us on Twitter"></a></li>
+               </ul>
+
+            </div>
+
+           </div>
+
+        </article>
+        <!--END all form elements-->
+
+
+
+
+        <!--START tabbed section-->
+        <article class="tabs helptabs" id="jsTabsHook">
+
+           <div class="row">
+
+             <div class="large-12 columns">
+
+                  <ul class="tabs" data-tab data-options="deep_linking:true" data-options="scroll_to_content: false">
+                    <li class="tab-title active"><a href="#parents">Parents</a></li>
+                    <li class="tab-title"><a href="#kids">Kids</a></li>
+                  </ul>
+
+                  <div class="tabs-content">
+                    <div class="content active" id="parents">
+
+                       <h1>Top Questions (Parent)</h1>
+
+
+                       <!--START white panels-->
+                       <!--REMOVED for now...-->
+                       <!--div class="helptabs__panel--container">
+
+                          <div class="row">
+
+                             <div class="large-6 medium-6 columns">
+
+                                 <div class="helptabs__panel helptabs__panel--allowance"><img src="./img/faq_icons/allowance.svg" alt="Allowance Icon"><span><b>Why</b> should i give Pocket Money?</span></div>
+
+                             </div>
+
+                             <div class="large-6 medium-6 columns">
+
+                                 <div class="helptabs__panel helptabs__panel--boost"><img src="./img/faq_icons/boost.svg" alt="Boost Icon"><span><b>Tips</b> on how to give Pocket Money</span></div>
+
+                             </div>
+
+                          </div>
+
+                          <div class="row">
+
+                             <div class="large-6 medium-6 columns">
+
+                                 <div class="helptabs__panel helptabs__panel--money"><img src="./img/faq_icons/money.svg" alt="Money Icon"><span><b>How</b> much money should I give?</span></div>
+
+                             </div>
+
+                             <div class="large-6 medium-6 columns">
+
+                                 <div class="helptabs__panel helptabs__panel--remove"><img src="./img/faq_icons/remove.svg" alt="Remove Icon"><span><b>Do I</b> have to deposit any money with RoosterMoney?</span></div>
+
+                             </div>
+
+                          </div>
+
+                       </div-->
+                       <!--END white panels-->
+
+                       <!--START main content-->
+                       <div class="row">
+
+                          <aside class="large-3 medium-3 columns">
+
+                             <ul class="helptabs__links">
+                                <li><a href="#_">Sign-Up</a></li>
+                                <li><a href="#_">Allowance</a></li>
+                                <li><a href="#_">Boost</a></li>
+                                <li><a href="#_">Remove</a></li>
+                                <li><a href="#_">Goals</a></li>
+                                <li><a href="#_">Saving Goals</a></li>
+                                <li><a href="#_">Statements</a></li>
+                                <li><a href="#_">Account Settings</a></li>
+                             </ul>
+
+                          </aside>
+
+
+                          <article class="large-8 medium-9 large-offset-1 columns">
+
+                             <h2>This is a Section</h2>
+                             <h3>This is a sub-title</h3>
+
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+                             <h2>This is a Section</h2>
+                             <h3>This is a sub-title</h3>
+
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+                             <h2>This is a Section</h2>
+                             <h3>This is a sub-title</h3>
+
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                          </article>
+
+                       </div>
+                       <!--END main content-->
+
+
+                    </div>
+                    <div class="content" id="kids">
+
+                      <h1>Top Questions (Kids)</h1>
+
+
+                       <!--START white panels-->
+                       <!--div class="helptabs__panel--container">
+
+                          <div class="row">
+
+                             <div class="large-6 medium-6 columns">
+
+                                 <div class="helptabs__panel helptabs__panel--allowance"><img src="./img/faq_icons/allowance.svg" alt="Allowance Icon"><span><b>Why</b> should i give Pocket Money?</span></div>
+
+                             </div>
+
+                             <div class="large-6 medium-6 columns">
+
+                                 <div class="helptabs__panel helptabs__panel--boost"><img src="./img/faq_icons/boost.svg" alt="Boost Icon"><span><b>Tips</b> on how to give Pocket Money</span></div>
+
+                             </div>
+
+                          </div>
+
+                          <div class="row">
+
+                             <div class="large-6 medium-6 columns">
+
+                                 <div class="helptabs__panel helptabs__panel--money"><img src="./img/faq_icons/money.svg" alt="Money Icon"><span><b>How</b> much money should I give?</span></div>
+
+                             </div>
+
+                             <div class="large-6 medium-6 columns">
+
+                                 <div class="helptabs__panel helptabs__panel--remove"><img src="./img/faq_icons/remove.svg" alt="Remove Icon"><span><b>Do I</b> have to deposit any money with RoosterMoney?</span></div>
+
+                             </div>
+
+                          </div>
+
+                       </div-->
+                       <!--END white panels-->
+
+                       <!--START main content-->
+                       <div class="row">
+
+                          <aside class="large-3 medium-3 columns">
+
+                             <ul class="helptabs__links">
+                                <li><a href="#_">Sign-Up</a></li>
+                                <li><a href="#_">Allowance</a></li>
+                                <li><a href="#_">Boost</a></li>
+                                <li><a href="#_">Remove</a></li>
+                                <li><a href="#_">Goals</a></li>
+                                <li><a href="#_">Saving Goals</a></li>
+                                <li><a href="#_">Statements</a></li>
+                                <li><a href="#_">Account Settings</a></li>
+                             </ul>
+
+                          </aside>
+
+
+                          <article class="large-8 medium-9 large-offset-1 columns">
+
+                             <h2>This is a Section</h2>
+                             <h3>This is a sub-title</h3>
+
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+                             <h2>This is a Section</h2>
+                             <h3>This is a sub-title</h3>
+
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+                             <h2>This is a Section</h2>
+                             <h3>This is a sub-title</h3>
+
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                          </article>
+
+                       </div>
+                       <!--END main content-->
+
+                    </div>
+                  </div>
+
+               </div>
+
+            </div>
+
+        </article>
+        <!--end tabbed section-->
+
+
+     </section>
+
+
+
+     <!--START press kit section-->
+
+     <section class="presskit">
+
+        <div class="presskit__container">
+
+          <div class="presskit__unit presskit__unit--kit"><!--presskit-->
+
+             <p class="presskit__unit--title">Press Kit</p>
+             <p class="presskit__unit--desc">You can download our presskit here</p>
+
+             <a href="#_" class="btn rounded white">Download Press kit</a>
+
+          </div>
+
+          <div class="presskit__unit presskit__unit--follow"><!--social-->
+
+             <p class="presskit__unit--title">Follow Us</p>
+             <p class="presskit__unit--desc">You can download our presskit here</p>
+
+             <div class="button_container row">
+
+                <div class="large-6 medium-6 small-6 columns">
+                   <a href="#_" class="btn rounded teal"><img src="./img/social/facebook.svg" alt="Follow us on Facebook"></a>
+                </div>
+
+                <div class="large-6 medium-6 small-6 columns">
+                   <a href="#_" class="btn rounded rust"><img src="./img/social/instagram.svg" alt="Follow us on Twitter"></a>
+                </div>
+
+             </div>
+
+          </div>
+
+          <div class="presskit__unit presskit__unit--twitter"><!--twitter-->
+
+             <p class="presskit__unit--title">Roosters Tweet Too!</p>
+             <p class="presskit__unit--desc twitter">Lorem ipsum dolor sit amet, <b>@consectetur</b> adipiscing elit. Sed nec purus in ante pretium blandit. Aliquam erat volutpat. <b>#NullaLiberoLectus</b><p>
+             <p class="twitterfeed"><span class="twitterfeed--logo"></span><span class="twitterfeed--time">12 hours ago</span></p>
+
+          </div>
+
+        </div>
+
+        <div class="clearfix cf"></div>
+
+     </section>
+
+     <!--END press kit section-->
+
+
+
+     <!--START footer-->
+     <footer class="footer">
+
+        <div class="row">
+
+          <div class="large-3 medium-3 columns">
+
+             <!--list of footer links-->
+             <ul class="footer__list">
+               <li class="footer__list--title"><a href="https://roostermoney.com">RoosterMoney</a></li>
+               <li class="footer__list--item"><a href="/about">About Us</a></li>
+               <li class="footer__list--item"><a href="/help">FAQ</a></li>
+               <li class="footer__list--item"><a href="/blog">Blog</a></li>
+               <li class="footer__list--item"><a href="/contact">Contact Us</a></li>
+             </ul>
+             <!--END list if footer links-->
+
+          </div>
+          <div class="large-3 medium-3 columns">
+
+             <!--list of footer links-->
+             <ul class="footer__list">
+               <li class="footer__list--title"><a href="/resources">RoosterMoney</a></li>
+               <li class="footer__list--item"><a href="#_">Average Pocket Money</a></li>
+               <li class="footer__list--item"><a href="#_">Pocket Money Reward Chart</a></li>
+               <li class="footer__list--item"><a href="#_">Games and Rooster Village</a></li>
+             </ul>
+             <!--END list if footer links-->
+
+          </div>
+          <div class="large-3 medium-3 columns">
+
+             <!--list of footer links-->
+             <ul class="footer__list">
+               <li class="footer__list--title">Legal Bits</li>
+               <li class="footer__list--item"><a href="/terms">Terms and Conditions</a></li>
+               <li class="footer__list--item"><a href="/privacy">Privacy Policy</a></li>
+             </ul>
+             <!--END list if footer links-->
+
+          </div>
+          <div class="large-3 medium-3 columns">
+
+             <!--play and app store btns-->
+             <div class="footer__download">
+
+                <p class="footer__list--title">Download the App for Free</p>
+
+                <ul class="footer__download--list btn white">
+                   <li class="footer__download--app"><img src="./img/appstore_icons/appstore-white.svg" alt="Download from the App Store"></li>
+                   <li class="footer__download--divider"></li>
+                   <li class="footer__download--play"><img src="./img/play_icons/playstore-white.svg" alt="Download from the Play Store"></li>
+                </ul>
+
+                <ul class="footer__download--list copy">
+                   <li class="footer__download--app"><p>App Store</p></li>
+                   <li class="footer__download--play"><p>Play Store</p></li>
+                </ul>
+             </div>
+             <!--END play and app store buttons-->
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="large-12 columns">
+             <div class="footer__border"></div>
+          </div>
+        </div>
+
+        <!--START badges and small print-->
+        <div class="row">
+          <div class="large-12 columns">
+             <p><small>&#169; 2015 RoosterMoney</small></p>
+          </div>
+        </div>
+        <!--END badges and small print-->
+
+     </footer>
+     <!--END footer-->
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="./js/vendor/hoverIntent.js"></script>
+    <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

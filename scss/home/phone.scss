@@ -1,0 +1,45 @@
+//phone styles
+.phone {
+   opacity: 0;
+   margin-top: 20px;
+
+   &__wrapper {
+      height: 649px;
+      width: 349px;
+      background: url(../img/homepage/screens/Phone.png) top left no-repeat;
+      background-size: contain;
+      position: absolute;
+      z-index: 999;
+      left: 0;
+      margin-top: 7vh;
+   }
+
+   &__screen {
+      position: relative;
+      width: 256px;
+      height: 455px;
+      overflow: hidden;
+      margin-top: 76px;
+      margin-left: 23px;
+      border-radius: 3px;
+   }
+
+   &__img {
+      position: absolute;
+      bottom: -455px;
+      width: 256px;
+
+      &--first {
+         bottom: 0;
+      }
+   }
+}
+
+
+.responsiveWrapper {
+   position: absolute;
+   z-index: 999;
+   left: 50%;
+   width: 800px;
+   margin-left: -400px;
+}

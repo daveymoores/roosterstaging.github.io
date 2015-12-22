@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="61px" height="76px" viewBox="0 0 61 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.4 (381) - http://www.bohemiancoding.com/sketch -->
+    <title>-g-nav-rooster</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Modules" sketch:type="MSArtboardGroup" transform="translate(-180.000000, -101.000000)">
+            <g id="Navigation" sketch:type="MSLayerGroup" transform="translate(66.000000, 79.000000)">
+                <g id="about-us:Hover" sketch:type="MSShapeGroup">
+                    <g id="-g-nav-rooster" transform="translate(104.000000, 20.000000)">
+                        <rect id="Rectangle-423" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="80" height="80"></rect>
+                        <g id="Page-1" transform="translate(10.000000, 2.000000)" fill="#FFFFFF">
+                            <path d="M0,9.15887692 L5.38041026,12.3697145 L6.71917949,6.92824444 L0,9.15887692 Z" id="Fill-1"></path>
+                            <path d="M9.64423761,3.40889231 L11.1223402,5.68467009 L14.0155368,10.1394393 L22.8172462,0.0648923077 L9.64423761,3.40889231 Z" id="Fill-2"></path>
+                            <path d="M0.659900855,37.7476735 L22.502106,25.9209043 L8.77208889,4.78088718 L0.659900855,37.7476735 Z" id="Fill-3"></path>
+                            <path d="M22.9751897,27.811453 L22.9313436,27.3713675 L0.927394872,39.2848547 L0.944608547,39.2971966 L25.9154803,57.3929915 L22.9751897,27.811453 Z" id="Fill-4"></path>
+                            <path d="M24.8099402,26.8548923 L38.2453761,49.538294 L51.1075641,31.8237983 L43.0554615,19.5647385 L38.7939402,13.096294 L24.5169829,26.3102256 L24.8554103,26.8311829 L24.8099402,26.8548923 Z" id="Fill-5"></path>
+                            <path d="M28.2112,65.5289538 L28.5983453,69.4267145 L29.2521402,76.000065 L31.2930974,69.7131761 L32.5100718,65.9651419 L37.3766701,50.9730051 L24.6229607,29.4425949 L28.2112,65.5289538 Z" id="Fill-6"></path>
+                            <path d="M44.6830308,19.3481385 L52.9173385,31.8459162 L52.9040222,31.8641043 L60.6738855,43.6928222 L58.6501419,27.0017282 L41.7362444,14.8615402 L44.6830308,19.3481385 Z" id="Fill-7"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,102 @@
+//hero states
+
+.hero {
+
+   &__container {
+
+      height: 30vw;
+      max-height: 450px;
+      background: transparent url(../img/hero-bgs/contact-image@2x.jpg) top center no-repeat;
+      background-image: none;
+      background-size: cover;
+      position: relative;
+
+      @media screen and (max-width: $small-breakpoint) {
+         height: 50vw;
+      }
+
+      &--copy {
+         margin-top: 12vw;
+         padding: 0 5%;
+
+         h1, h2 {
+            color: white;
+            text-align: center;
+            color: palette(white);
+            width: 100%;
+         }
+
+         h1 {
+            @media screen and (max-width: $small-breakpoint) {
+               font-size: 2rem;
+            }
+         }
+
+         h2 {
+            font-size: 1.5rem;
+            font-weight: 100;
+
+            @media screen and (max-width: $small-breakpoint) {
+               font-size: 1.2rem;
+            }
+
+         }
+
+         @media screen and (max-width: $small-breakpoint) {
+            margin-top: 17vw;
+         }
+
+         width: 100%;
+         position: absolute;
+      }
+
+      &--about {
+         background-color: palette(core-blue, light);
+         background-image: url(../img/hero-bgs/about-image@2x.jpg);
+
+         @media screen and (max-width: $small-breakpoint) {
+            height: 65vw;
+         }
+
+         h1 {
+            margin-top: -20px;
+         }
+      }
+
+      &--help {
+         background-color: palette(core-orange);
+         background-image: url(../img/hero-bgs/faq-image@2x.jpg);
+      }
+
+      &--resources {
+         background-color: palette(core-green);
+         background-image: url(../img/hero-bgs/resources-image@2x.jpg);
+      }
+
+      &--blog {
+         background-color: palette(core-blue);
+         background-image: url(../img/hero-bgs/blog-image@2x.jpg);
+      }
+
+      &--contact {
+         background-color: palette(core-yellow);
+         background-image: url(../img/hero-bgs/contact-image@2x.jpg);
+      }
+
+   }
+
+}
+
+
+.success {
+
+   h1 {
+      margin-top: 120px;
+   }
+
+   h3 {
+      text-align: center;
+      margin-bottom: 170px;
+   }
+
+}

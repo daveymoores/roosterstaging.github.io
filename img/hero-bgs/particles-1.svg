@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="162px" height="79px" viewBox="0 0 162 79" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.4 (381) - http://www.bohemiancoding.com/sketch -->
+    <title>-g-particles1</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="About" sketch:type="MSArtboardGroup" transform="translate(-126.000000, -557.000000)">
+            <g id="Navigation" sketch:type="MSLayerGroup" transform="translate(0.000000, 5.000000)">
+                <g id="Group" transform="translate(117.000000, 552.000000)" sketch:type="MSShapeGroup">
+                    <g id="-g-particles1">
+                        <path d="M60,41.932 L80.411,33 L78.908,42.395 L60,41.932 Z" id="Fill-27" fill="#357A75"></path>
+                        <path d="M137.061,48.498 L110.5,54.432 L98.321,41 L137.061,48.498 Z" id="Fill-30" fill="#E5312C"></path>
+                        <path d="M171.029,10 L131,33.396 L159,33.396 L171.029,10 Z" id="Fill-32" fill="#E5312C"></path>
+                        <path d="M131,0 L159,34 L131,34 L131,0 Z" id="Fill-33" fill="#51B7AF"></path>
+                        <path d="M159.634,34.207 L157.652,19 L150,22.509 L159.634,34.207 Z" id="Fill-34" fill="#943244"></path>
+                        <g id="Ornaments" transform="translate(0.000000, 33.000000)" fill="#E6352B">
+                            <path d="M6,28.3200493 L18.8142882,43 L51,43 L50.9291886,10 L6,28.3200493 Z" id="Fill-38" transform="translate(28.500000, 26.500000) rotate(-30.000000) translate(-28.500000, -26.500000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

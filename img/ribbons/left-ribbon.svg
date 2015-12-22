@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="245px" height="186px" viewBox="0 0 245 186" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.4 (381) - http://www.bohemiancoding.com/sketch -->
+    <title>left-ribbon</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="About" sketch:type="MSArtboardGroup" transform="translate(0.000000, -1875.000000)">
+            <g id="Footer" sketch:type="MSLayerGroup" transform="translate(-73.000000, 1800.000000)">
+                <g id="left-ribbon" transform="translate(159.062720, 166.362221) rotate(-336.000000) translate(-159.062720, -166.362221) translate(12.681726, 105.078312)" sketch:type="MSShapeGroup">
+                    <path d="M292.345103,-6.39488462e-13 L206.665168,12.0912301 L212.730747,91.7076685 L292.345103,-6.39488462e-13 Z" id="Fill-1" fill="#00A1E0"></path>
+                    <path d="M212.752845,92.0621285 L241.970468,122.276891 L241.970468,27.1779328 L206.665168,12.4860206 L212.752845,92.0621285 Z" id="Fill-2" fill="#266093"></path>
+                    <path d="M-7.81597009e-14,70.9395156 L87.4021442,77.9299906 L87.4021442,48.4492966 L2.43601225,41.7635861 L-7.81597009e-14,70.9395156 Z" id="Fill-4" fill="#FCC42F"></path>
+                    <path d="M176.095946,-3.19744231e-13 L34.0891622,12.1015273 L27.1248034,39.0290775 L176.095946,44.7774532 L176.095946,-3.19744231e-13 Z" id="Fill-5" fill="#FCC42F"></path>
+                    <path d="M176.095946,0 L109.360318,51.8014521 L115.36266,102.471479 L176.095946,44.7367992 L176.095946,0 Z" id="Fill-6" fill="#59B7B2"></path>
+                    <path d="M109.360318,52.1409202 L115.377424,102.815465 L241.539916,122.276891 L241.539916,27.1248034 L109.360318,52.1409202 Z" id="Fill-7" fill="#FCC42F"></path>
+                    <path d="M86.9715917,48.5405172 L86.9715917,77.9299906 L27.1248034,39.4509377 L34.1122572,12.4860206 L86.9715917,48.5405172 Z" id="Fill-8" fill="#E54260"></path>
+                    <g id="Group-22" transform="translate(-0.000000, 0.000000)" fill-opacity="0.2" fill="#1D1C1B">
+                        <path d="M27.2970505,43.4618861 L35.0511815,44.0708355 L87.0475231,77.4620589 L27.2970505,43.4618861 Z" id="Fill-11"></path>
+                        <path d="M34.2730582,12.2010855 L92.0551359,41.5826423 L76.5227834,40.9846921 L34.2730582,12.2010855 Z" id="Fill-13"></path>
+                        <path d="M207.743659,26.8917639 L241.806627,26.8917639 L208.227476,33.2432358 L207.743659,26.8917639 Z" id="Fill-15"></path>
+                        <g id="Group-19" transform="translate(114.863957, 0.000000)">
+                            <path d="M61.6572035,0.115590389 L6.61441684,42.7140483 L0.165188152,42.4660689 L61.6572035,0.115590389 Z" id="Fill-17"></path>
+                        </g>
+                        <path d="M176.597046,34.3703421 L176.520759,39.2399371 L109.616411,51.893885 L176.597046,34.3703421 Z" id="Fill-20"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

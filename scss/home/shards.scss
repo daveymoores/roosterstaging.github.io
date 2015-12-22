@@ -1,0 +1,30 @@
+//shards
+
+.shard {
+   width: 100%;
+   opacity: 0;
+
+   img {
+      width: 50%;
+   }
+
+   &.bottom {
+      bottom: -100px;
+      left: -50px;
+      position: absolute;
+
+      img {
+         float: left;
+      }
+   }
+
+   &.top {
+      top: -100px;
+      right: -50px;
+      position: absolute;
+
+      img {
+         float: right;
+      }
+   }
+}

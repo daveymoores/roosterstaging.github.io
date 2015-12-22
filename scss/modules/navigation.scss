@@ -1,0 +1,262 @@
+//navigation
+
+#jsNavParent {
+
+   .navigation {
+
+
+      &__container {
+
+      }
+
+      &__list {
+         list-style: none;
+         padding: 0px;
+         margin: 0px;
+         text-align: center;
+         width: 100%;
+
+         &::before {
+            content: "";
+            width: 100%;
+            height: 3px;
+            z-index: 99;
+            background: transparent url(../img/shadows/nav_shadow.png) top center no-repeat;
+            position: absolute;
+
+            @media screen and (max-width: $small-breakpoint) {
+               display: none;
+            }
+         }
+
+         li {
+            display: inline-block;
+            width: 20%;
+            position: relative;
+            height: 50px;
+
+            @media screen and (max-width: $small-breakpoint) {
+               width: 100%;
+               display: block;
+            }
+
+            a {
+               text-align: center;
+               padding: 0.8rem;
+               position: absolute;
+               width: 100%;
+               display: block;
+               height: 100%;
+               color: white;
+               z-index: 6;
+               text-transform: uppercase;
+               font-size: 0.8rem;
+               font-weight: bold;
+               letter-spacing: 2px;
+
+               span {
+                  position: absolute;
+                  bottom: 2px;
+                  width: 100%;
+                  left: 0;
+
+                  @media screen and (max-width: $small-breakpoint) {
+                     top: 16px;
+                  }
+               }
+
+               .icon {
+
+                  top: 12px;
+                  height: 54px;
+                  width: 54px;
+                  background: transparent url(../img/nav_icons/nav-rooster.svg) top center no-repeat;
+                  background-size: contain;
+                  left: 50%;
+                  margin-left: -27px;
+                  opacity: 0;
+
+                  @media screen and (max-width: $small-breakpoint) {
+                     display: none;
+                  }
+
+                  &--about {
+                     background-image: url(../img/nav_icons/nav-rooster.svg);
+                  }
+
+                  &--help {
+                     background-image: url(../img/nav_icons/nav-help.svg);
+                  }
+
+                  &--contact {
+                     background-image: url(../img/nav_icons/nav-contact.svg);
+                  }
+
+                  &--resources {
+                     background-image: url(../img/nav_icons/nav-resources.svg);
+                  }
+
+                  &--blog {
+                     background-image: url(../img/nav_icons/nav-blog.svg);
+                  }
+
+               }
+            }
+         }
+
+
+         &--lightblue {
+
+            a {
+               background-color: palette(core-blue, light);
+            }
+
+         }
+         &--orange {
+
+            a {
+               background-color: palette(core-orange);
+            }
+
+         }
+         &--yellow {
+
+            a {
+               background-color: palette(core-yellow);
+            }
+
+         }
+         &--green {
+
+            a {
+               background-color: palette(core-green);
+            }
+
+         }
+         &--darkblue {
+
+            a {
+               background-color: palette(core-blue, dark);
+            }
+
+         }
+
+      }
+
+   }
+
+}
+
+
+.top-bar {
+   @media screen and (max-width: $small-breakpoint) {
+      width: 100%;
+      display: block;
+      background-color: transparent;
+      position: absolute;
+      top: 0px;
+      z-index: 6;
+      height: 90px;
+   }
+
+   .title-area {
+      height: 90px;
+   }
+}
+
+
+#youLost {
+
+   h1 {
+      color: palette(steel);
+      margin-top: 80px;
+      font-size: 1.8rem;
+
+      @media screen and (max-width: $small-breakpoint) {
+         margin-top: 40px;
+         font-size: 1.6rem;
+      }
+   }
+
+   p {
+      width: 100%;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 30px auto 10px;
+      font-weight: 100;
+   }
+
+   #jsNavParent .navigation__list::before {
+         background-image: none;
+   }
+
+   .top-bar-section ul li {
+      background-color: transparent;
+
+      &.navigation__list--lightblue {
+
+         a {
+            color: palette(core-blue, light);
+            border-bottom: 4px solid palette(core-blue, light);
+            background-color: transparent;
+
+            span {
+               bottom: -6px;
+            }
+         }
+
+      }
+      &.navigation__list--orange {
+
+         a {
+            color: palette(core-orange);
+            border-bottom: 4px solid palette(core-orange);
+            background-color: transparent;
+
+            span {
+               bottom: -6px;
+            }
+         }
+
+      }
+      &.navigation__list--yellow {
+
+         a {
+            color: palette(core-yellow);
+            border-bottom: 4px solid palette(core-yellow);
+            background-color: transparent;
+
+            span {
+               bottom: -6px;
+            }
+         }
+
+      }
+      &.navigation__list--green {
+
+         a {
+            color: palette(core-green);
+            border-bottom: 4px solid palette(core-green);
+            background-color: transparent;
+
+            span {
+               bottom: -6px;
+            }
+         }
+
+      }
+      &.navigation__list--darkblue {
+
+         a {
+            color: palette(core-blue, dark);
+            border-bottom: 4px solid palette(core-blue, dark);
+            background-color: transparent;
+
+            span {
+               bottom: -6px;
+            }
+         }
+
+      }
+   }
+}

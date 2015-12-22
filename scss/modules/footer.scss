@@ -1,0 +1,203 @@
+//footer
+.footer {
+
+   background-color: palette(core-blue, light);
+   padding: 2rem 0;
+   position: relative;
+
+   @media screen and (max-width: $small-breakpoint) {
+      padding: 1rem 0;
+   }
+
+   .footer__border {
+      border-bottom: 1px solid palette(white);
+      padding-top: 2.5rem;
+      margin-bottom: 1rem;
+      width: 100%;
+   }
+
+
+   &::before {
+      content:"";
+      display: block;
+      position: absolute;
+      background: transparent url(../img/ribbons/left-ribbon.svg) top left no-repeat;
+      height: 190px;
+      width: 200px;
+      left: 0px;
+      top: -76px;
+      z-index: 3;
+      background-size: contain;
+
+      @media screen and (max-width: $small-breakpoint) {
+         display: none;
+      }
+
+      @media screen and (max-width: $medium-large-breakpoint) {
+         width: 140px;
+         top: -50px;
+      }
+
+      @media screen and (max-width: 1100px) {
+         display: none;
+      }
+
+      @media screen and (max-width: 1170px) {
+         left: -3%;
+      }
+
+      @media screen and (min-width: 1360px) {
+         width: 250px;
+         top: -90px;
+      }
+
+
+   }
+
+   &::after {
+      content:"";
+      display: block;
+      position: absolute;
+      background: transparent url(../img/ribbons/right-ribbon.svg) top right no-repeat;
+      height: 210px;
+      width: 200px;
+      right: 0px;
+      top: -78px;
+      z-index: 3;
+      background-size: contain;
+
+      @media screen and (max-width: $small-breakpoint) {
+         display: none;
+      }
+
+      @media screen and (max-width: $medium-large-breakpoint) {
+         width: 140px;
+         top: -50px;
+      }
+
+      @media screen and (max-width: 1100px) {
+         display: none;
+      }
+
+      @media screen and (max-width: 1170px) {
+         right: -3%;
+      }
+
+      @media screen and (min-width: 1360px) {
+         width: 250px;
+         top: -79px;
+      }
+
+
+   }
+
+
+   &__list {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+
+      li {
+
+         @media screen and (max-width: $small-breakpoint) {
+            border-bottom: 1px solid palette(core-blue, x-light);
+         }
+
+         a {
+            color: white;
+
+            @media screen and (max-width: $small-breakpoint) {
+               text-align: center;
+               width: 100%;
+               display: block;
+               padding: 0.5rem;
+            }
+         }
+      }
+
+      &--title {
+         font-size: 1rem;
+         font-weight: bold;
+         margin-bottom: 10px;
+         color: palette(white);
+
+         @media screen and (max-width: $small-breakpoint) {
+            border-bottom: none!important;
+            margin-top: 20px;
+
+            a {
+               padding-bottom: 0!important;
+            }
+         }
+      }
+
+      &--item {
+         font-size: 0.8rem;
+      }
+   }
+
+}
+
+
+
+.footer__download {
+
+   @media screen and (max-width: $small-breakpoint) {
+      width: 80%;
+      margin: auto;
+   }
+
+   p {
+      margin-bottom: 10px;
+      color: white;
+
+      @media screen and (max-width: $small-breakpoint) {
+         text-align: center;
+      }
+   }
+
+   &--list {
+      list-style: none;
+      height: 60px;
+      padding-right: 0px;
+      padding-left: 0px;
+      position: relative;
+      margin: 0 0 10px;
+
+      &.copy {
+         height: auto;
+
+         p {
+            font-size: 0.8rem;
+            width: 100%;
+            text-align: center;
+            opacity: 0.6;
+         }
+      }
+   }
+
+   &--app {
+      width: 50%;
+      float: left;
+   }
+
+   &--divider {
+      position: absolute;
+      height: 60px;
+      width: 2px;
+      background-color: palette(white);
+      top: 0px;
+      left: 50%;
+      margin-left: -1px;
+   }
+
+   &--play {
+      width: 50%;
+      float: right;
+   }
+
+}
+
+small {
+   color: palette(white);
+}

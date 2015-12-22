@@ -1,0 +1,60 @@
+//page wipes
+
+.homebody {
+   background-color: palette(core-blue, light);
+   transition: background-color 2s ease;
+}
+
+.wipes {
+
+   &__container {
+
+   }
+
+   &__section {
+
+      h2 {
+         color: palette(white);
+         text-align: center;
+         width: 100%;
+      }
+
+      &--first {
+         &.active{
+            background-color: transparent;
+         }
+      }
+
+      &--second {
+         &.active {
+            background-color: transparent;
+         }
+      }
+
+      &--third {
+         &.active {
+            background-color: transparent;
+         }
+      }
+
+      &--fourth {
+         &.active {
+            background-color: transparent;
+         }
+      }
+
+      &--fifth {
+         &.active {
+            background-color: transparent;
+         }
+      }
+
+      &--sixth {
+         &.active {
+            background-color: transparent;
+         }
+      }
+
+   }
+
+}

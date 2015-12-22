@@ -1,0 +1,137 @@
+//logo section
+//white header section
+
+
+.logo {
+   background-color: palette(white);
+
+   &__container {
+      padding: 1.2rem 0 1.2rem 1.2rem;
+      height: 100%;
+
+      @media screen and (max-width: $small-breakpoint) {
+         padding: 0;
+         width: 90px;
+      }
+
+      img {
+         vertical-align: middle;
+         width: 200px;
+         margin-top: 5px;
+         display: block;
+
+         @media screen and (max-width: $small-breakpoint) {
+            margin-top: 0px;
+         }
+      }
+   }
+
+   &__apps {
+      width: 47%;
+      padding: 1.2rem 0;
+      background-color: palette(grey);
+
+
+
+      display: none; //remove next week
+
+
+
+      @media screen and (max-width: $medium-large-breakpoint) {
+         width: 55%;
+      }
+
+      @media screen and (max-width: $medium-breakpoint) {
+         width: 70%;
+      }
+
+      @media screen and (max-width: 800px) {
+         width: 60%;
+
+         .medium-4 {
+            width: 50%;
+         }
+      }
+
+      @media screen and (max-width: $small-breakpoint) {
+         width: 100%;
+
+         .small-12 {
+             width: 100%;
+         }
+      }
+
+      p {
+         color: palette(core-blue, light);
+         text-transform: uppercase;
+         font-size: 0.75rem;
+         width: 100%;
+         text-align: center;
+         letter-spacing: 1px;
+         margin-top: 23px;
+         font-weight: bold;
+
+         @media screen and (max-width: $medium-breakpoint) {
+            font-size: 0.72rem;
+         }
+
+         @media screen and (max-width: 800px) {
+            display: none;
+         }
+
+         @media screen and (max-width: $small-breakpoint) {
+            margin-top: 0;
+            display: block;
+         }
+
+      }
+
+      &--appstore {
+
+         margin-top: 5px;
+
+         color: palette(app-store);
+         box-shadow: 0px 0px 0px 2px palette(app-store);
+
+         @media screen and (max-width: $small-breakpoint) {
+            font-size: 0.8rem;
+            margin-top: 0;
+         }
+
+         span {
+            display: inline-block;
+            height: 28px;
+            width: 28px;
+            background: transparent url(../img/appstore_icons/appstore-icon.svg) center center no-repeat;
+            background-size: contain;
+            float: left;
+            margin-right: 3px;
+         }
+      }
+
+      &--playstore {
+
+         margin-top: 5px;
+
+         color: palette(play-store);
+         box-shadow: 0px 0px 0px 2px palette(play-store);
+
+         @media screen and (max-width: $small-breakpoint) {
+            font-size: 0.8rem;
+            margin-top: 0;
+         }
+
+         span {
+            display: inline-block;
+            height: 28px;
+            width: 28px;
+            background: transparent url(../img/play_icons/googleplay-icon.svg) center center no-repeat;
+            background-size: contain;
+            float: left;
+            margin-right: 3px;
+         }
+      }
+
+   }
+
+}

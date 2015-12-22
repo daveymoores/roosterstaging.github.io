@@ -1,0 +1,94 @@
+//form override
+
+.form {
+
+   margin-top: 50px;
+
+   input, textarea {
+      border-radius: 5px;
+      padding: 1.5rem;
+   }
+
+   input[type="submit"] {
+      font-size: 1rem;
+      color: white;
+      font-family: $body-font-family;
+      padding: 1rem;
+      margin-bottom: 50px;
+
+      @media screen and (max-width: $small-breakpoint) {
+         width: 100%;
+         margin-bottom: 50px;
+      }
+   }
+
+   label {
+      text-indent: 9999px;
+      font-size: 0px;
+   }
+
+   textarea {
+      height: 200px;
+   }
+
+   .newsletter {
+      background-color: palette(steel);
+      padding: 1rem;
+      -webkit-border-top-left-radius: 5px;
+      -webkit-border-top-right-radius: 5px;
+      -moz-border-radius-topleft: 5px;
+      -moz-border-radius-topright: 5px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+
+      p {
+         color: white;
+         font-size: 0.9rem;
+      }
+   }
+
+}
+
+
+.followus {
+
+   p {
+      margin-top: 30px;
+      margin-bottom: 5px;
+      margin-left: 20px;
+      font-size: 0.9rem;
+   }
+
+   &__list {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+
+      li {
+         width: 33.333%;
+         float: left;
+
+         a {
+            margin: auto;
+         }
+      }
+   }
+
+}
+
+
+[data-abide] small.error {
+   padding-top: 0px!important;
+   line-height: 12px;
+}
+
+
+.emails {
+   p {
+
+      a {
+         font-weight: bold;
+         color: palette(core-red);
+      }
+   }
+}

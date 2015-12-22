@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="30px" viewBox="0 0 26 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.4 (381) - http://www.bohemiancoding.com/sketch -->
+    <title>appstore-icon</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Terms" sketch:type="MSArtboardGroup" transform="translate(-1052.000000, -36.000000)">
+            <g id="Header" sketch:type="MSLayerGroup">
+                <g id="App-Store-+-App-Store" transform="translate(1032.000000, 20.000000)" sketch:type="MSShapeGroup">
+                    <g id="App-Store">
+                        <g id="appstore-icon" transform="translate(16.000000, 16.000000)">
+                            <rect id="Rectangle-102" x="0" y="0" width="34" height="34"></rect>
+                            <path d="M22.9627895,6.69890696 C26.4391049,6.69890696 28.6620649,10.0624244 28.6620649,10.0624244 C28.6620649,10.0624244 25.2710218,11.9025883 25.2710218,15.8989859 C25.2710218,20.6422562 29.53096,22.0220089 29.53096,22.0220089 C29.53096,22.0220089 26.168586,30 22.3930825,30 C20.2700969,30 20.1282215,28.7786523 17.3068854,28.7786523 C14.8567777,28.7786523 14.0305188,30 12.1640851,30 C8.60176238,30 4,22.2233462 4,15.8989859 C4,9.32961583 8.65910064,6.69890696 11.579676,6.69890696 C14.1444602,6.69890696 15.2125689,8.2081966 17.2782163,8.2081966 C19.0167415,8.2081966 20.3847734,6.69890696 22.9627895,6.69890696 L22.9627895,6.69890696 Z M22.3651485,0 C22.8775172,3.2199166 19.9569419,7.20225024 16.4666595,7.07271337 C15.9535556,2.97564707 19.715092,0.216141528 22.3651485,0 L22.3651485,0 Z" id="Imported-Layers" fill="#F2784B"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,50 @@
+//slide 2 items
+
+
+.wipes__section--third {
+
+   .item {
+
+      &__bowl {
+         width: 255px;
+         right: -125px;
+         bottom: 140px;
+      }
+
+      &__coffee {
+         width: 244px;
+         bottom: 50%;
+      }
+
+      &__headphone {
+         width: 457px;
+         right: 0;
+         bottom: 150px;
+      }
+
+      &__phone {
+         left: -50px;
+         width: 270px;
+      }
+
+      &__tablet {
+         right: -120px;
+         bottom: 300px;
+         width: 451px;
+      }
+
+      &__wallet {
+         left: 250px;
+         bottom: 40px;
+         width: 237px;
+      }
+
+      &__jar {
+         right: 500px;
+         top: 0px;
+         width: 230px;
+      }
+
+   }
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="181px" height="209px" viewBox="0 0 181 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.4 (381) - http://www.bohemiancoding.com/sketch -->
+    <title>right-ribbon</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="About" sketch:type="MSArtboardGroup" transform="translate(-1259.000000, -1892.000000)">
+            <g id="Footer" sketch:type="MSLayerGroup" transform="translate(-73.000000, 1800.000000)">
+                <g id="right-ribbon" transform="translate(1557.999879, 165.647747) scale(-1, 1) rotate(-336.000000) translate(-1557.999879, -165.647747) translate(1348.999879, 78.147747)" sketch:type="MSShapeGroup">
+                    <path d="M417.404779,-9.09494702e-13 L295.072598,17.2636284 L303.732915,130.938465 L417.404779,-9.09494702e-13 Z" id="Fill-1" fill="#00A1E0"></path>
+                    <path d="M303.764466,131.444557 L345.480833,174.58462 L345.480833,38.8041356 L295.072598,17.8273028 L303.764466,131.444557 Z" id="Fill-2" fill="#266093"></path>
+                    <path d="M251.426443,-4.54747351e-13 L48.6718576,17.2783305 L38.7282785,55.7249748 L251.426443,63.9323962 L251.426443,-4.54747351e-13 Z" id="Fill-5" fill="#FCC42F"></path>
+                    <path d="M251.426443,0 L156.142583,73.9611283 L164.712612,146.30683 L251.426443,63.8743513 L251.426443,0 Z" id="Fill-6" fill="#59B7B2"></path>
+                    <path d="M156.142583,74.4458144 L164.733692,146.797966 L344.866099,174.58462 L344.866099,38.7282785 L156.142583,74.4458144 Z" id="Fill-7" fill="#FCC42F"></path>
+                    <g id="Group-22" transform="translate(-0.000000, 0.000000)" fill-opacity="0.2" fill="#1D1C1B">
+                        <path d="M296.612446,38.3955492 L345.246905,38.3955492 L297.303231,47.4640599 L296.612446,38.3955492 Z" id="Fill-15"></path>
+                        <g id="Group-19" transform="translate(164.000574, 0.000000)">
+                            <path d="M88.0329827,0.165037759 L9.44393859,60.9863059 L0.235852503,60.6322457 L88.0329827,0.165037759 Z" id="Fill-17"></path>
+                        </g>
+                        <path d="M252.141904,49.0733209 L252.032984,56.0260361 L156.508227,74.0931022 L252.141904,49.0733209 Z" id="Fill-20"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

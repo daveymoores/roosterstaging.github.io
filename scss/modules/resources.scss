@@ -1,0 +1,134 @@
+//resourcesbox and breadcrumb
+
+.breadcrumb {
+
+   &__list {
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+   }
+
+   &__unit {
+      position: relative;
+      float: left;
+
+      a {
+         height: 76px;
+         background: transparent url(../img/chevron-darkgreen/images/chevron_02.png) top left repeat-x;
+         color: palette(white);
+         font-weight: 200;
+         float: left;
+         padding: 23px 10px 0;
+      }
+
+
+      &::before {
+         content: "";
+         display: block;
+         float: left;
+         background: transparent url(../img/chevron-darkgreen/images/chevron_01.png) top left no-repeat;
+         height: 76px;
+         width: 34px;
+      }
+
+      &::after {
+         content: "";
+         display: block;
+         float: left;
+         background: transparent url(../img/chevron-darkgreen/images/chevron_01.png) top left no-repeat;
+         height: 76px;
+         width: 34px;
+         margin-right: 10px;
+      }
+
+
+      &--first {
+
+         span {
+               height: 30px;
+               width: 30px;
+               background-color: transparent;
+               display: block;
+               float: left;
+               margin-right: 10px;
+               margin-left: 10px;
+         }
+
+         a {
+            background-image: url(../img/chevron-white/images/chevron-white_01.png);
+            color: palette(steel);
+         }
+
+         &::before {
+            display: none;
+         }
+         &::after {
+            background-image: url(../img/chevron-white/images/chevron-white_02.png);
+         }
+      }
+
+      &--second {
+         a {
+            background-image: url(../img/chevron-darkgreen/images/chevron_02.png);
+         }
+
+         &::before {
+            background-image: url(../img/chevron-darkgreen/images/chevron_01.png);
+            left: -32px;
+            position: absolute;
+         }
+         &::after {
+            background-image: url(../img/chevron-darkgreen/images/chevron_03.png);
+         }
+      }
+
+      &--third {
+         a {
+            background-image: url(../img/chevron-lightgreen/images/chevron_02.png);
+         }
+
+         &::before {
+            background-image: url(../img/chevron-lightgreen/images/chevron_01.png);
+            left: -32px;
+            position: absolute;
+         }
+         &::after {
+            background-image: url(../img/chevron-lightgreen/images/chevron_03.png);
+         }
+      }
+
+
+   }
+
+}
+
+
+.resourcetitle {
+   text-align: left;
+   margin: 50px 0;
+   color: palette(steel);
+   font-size: 1.4rem;
+   font-weight: 100;
+}
+
+
+//resource page panels
+.resourcebox {
+
+   &__content {
+      padding: 20px;
+      background-color: palette(white);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+      margin-bottom: 30px;
+
+      h4 {
+         text-align: center;
+      }
+
+      p {
+         text-align: center;
+         font-weight: 100;
+      }
+   }
+
+}

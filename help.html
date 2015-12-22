@@ -1,0 +1,838 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Roosterbank - Help</title>
+
+    <meta name="description" content="RoosterMoney - A pocket money and allowance tracker to help teach children the value of money">
+    <meta name="keywords" content="Money, App, Kids, Children">
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="RoosterMoney" />
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="https://roostermoney.com" />
+    <meta property="og:image" content="https://roostermoney.com/img/roostermoney_icons/opengraph.png" />
+    <meta property="og:site_name" content="RoosterMoney" />
+    <meta property="og:description" content="RoosterMoney - A pocket money and allowance tracker to help teach children the value of money" />
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:description" content="RoosterMoney - A pocket money and allowance tracker to help teach children the value of money"/>
+    <meta name="twitter:title" content="RoosterMoney"/>
+    <meta name="twitter:domain" content="https://roostermoney.com"/>
+    <meta name="twitter:image:src" content="https://roostermoney.com/img/roostermoney_icons/opengraph.png"/>
+    <meta name="twitter:creator" content="RoosterMoney"/>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+
+    <script type="application/ld+json">
+      [
+
+              {
+              "@context": "http://schema.org/",
+              "@type": "Product",
+              "name": "RoosterMoney",
+              "image":"https://roostermoney.com/img/roostermoney_icons/logo-mobile.svg",
+              "brand":{
+              "@type":"Organization",
+              "name":"RoosterMoney",
+              "logo":"https://roostermoney.com/img/roostermoney_icons/roostermoney-logo.png",
+              "url":"https://roostermoney.com"
+              }
+              }
+
+      ,{
+          "@context":"http://schema.org/",
+          "@type":"Organization",
+          "url":"https://roostermoney.com",
+          "logo":"https://roostermoney.com/img/roostermoney_icons/roostermoney-logo.png",
+          "name":"RoosterMoney"
+
+      }
+      ,{
+          "@context":"http://schema.org/",
+          "@type" : "WebSite",
+          "name" : "RoosterMoney",
+          "alternateName" : "RoosterMoney",
+          "url" : "https://roostermoney.com/"
+      }]
+      </script>
+
+  </head>
+  <body>
+
+     <header>
+
+       <div class="logo" id="jsLogoHook">
+          <!--START white header content with app buttons-->
+
+            <div class="logo__container left"><!--roosterbank logo-->
+               <a href="#_" class="hide-for-small"><img src="./img/roostermoney_icons/roostermoney-logo.svg" alt="Rooster Money Logo"></a>
+               <a href="#_" class="show-for-small-only"><img src="./img/roostermoney_icons/logo-mobile.svg" alt="Rooster Money Logo"></a>
+            </div>
+
+            <!--START everything in the app button grey box-->
+            <div class="logo__apps row right">
+               <div class="large-4 medium-4 small-12 columns">
+                  <p>Get the app for free</p>
+               </div>
+               <div class="large-4 medium-4 small-6 columns">
+                  <a href="#_" target="_blank" class="btn logo__apps--appstore"><span class="icon"></span>AppStore</a>
+               </div>
+               <div class="large-4  medium-4 small-6 columns">
+                  <a href="#_" target="_blank" class="btn logo__apps--playstore"><span class="icon"></span> Play Store</a>
+               </div>
+            </div>
+            <!--END everything in the app button grey box-->
+            <div class="clearfix cf"></div>
+         <!--END white header section with app buttons-->
+        </div>
+
+        <!--navigation bar-->
+        <nav class="top-bar" data-topbar role="navigation" id="jsNavParent">
+
+            <ul class="title-area">
+               <li class="name"></li>
+              <li class="toggle-topbar" id="jsMobHook">
+                    <a href="#">
+                     <div id="nav-icon">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                     </div>
+                  </a>
+               </li>
+            </ul>
+
+            <!-- <div class="navigation navigation__container"> -->
+
+               <section class="top-bar-section navigation navigation__container">
+
+                  <!--add disabled class to list item of current page to disable animation-->
+                 <ul class="navigation__list" id="jsNavigationHook">
+                    <!--keep this without formatting to prevent gaps that appear with inline styles-->
+                   <li class="navigation__list--lightblue"><a href="/"><span class="icon icon--about"></span><span>About Us</span></a></li><li class="navigation__list--orange disable"><a href="/help"><span class="icon icon--help"></span><span>Help</span></a></li><li class="navigation__list--green"><a href="/resources"><span class="icon icon--resources"></span><span>Resources</span></a></li><li class="navigation__list--darkblue"><a href="/blog"><span class="icon icon--blog"></span><span>Blog</span></a></li><li class="navigation__list--yellow"><a href="/contact"><span class="icon icon--contact"></span><span>Contact</span></a></li>
+                 </ul>
+
+               </section>
+
+            <!-- </div> -->
+        </nav>
+        <!--END navigation bar-->
+
+
+        <!--START hero section-->
+        <!--NOTE - append name to end of class for different hero bg-->
+        <!--OPTIONS - --about, --help, --resources, --blog, --contact -->
+        <section class="hero">
+           <div class="hero__container hero__container--help">
+
+             <div class="hero__container--copy">
+                <h1>Need Help?</h1>
+             </div>
+
+           </div>
+        </section>
+        <!--END hero section-->
+
+     </header>
+
+     <section class="content">
+
+
+          <!--START tabbed section-->
+          <article class="tabs helptabs" id="jsTabsHook">
+
+             <div class="row">
+
+               <div class="large-12 columns">
+
+                    <ul class="tabs" data-tab data-options="scroll_to_content: false">
+                      <li class="tab-title active" data-id="parents"><a href="#parents">Parents</a></li>
+                      <li class="tab-title" data-id="child"><a href="#child">Kids</a></li>
+                    </ul>
+
+                    <div class="tabs-content">
+                      <div class="content active tab-content" id="parents">
+
+                         <h1>Top Questions</h1>
+
+
+                         <!--START white panels-->
+                         <!--REMOVED for now...-->
+                         <!--div class="helptabs__panel--container">
+
+                            <div class="row">
+
+                               <div class="large-6 medium-6 columns">
+
+                                   <div class="helptabs__panel helptabs__panel--allowance"><img src="./img/faq_icons/allowance.svg" alt="Allowance Icon"><span><b>Why</b> should i give Pocket Money?</span></div>
+
+                               </div>
+
+                               <div class="large-6 medium-6 columns">
+
+                                   <div class="helptabs__panel helptabs__panel--boost"><img src="./img/faq_icons/boost.svg" alt="Boost Icon"><span><b>Tips</b> on how to give Pocket Money</span></div>
+
+                               </div>
+
+                            </div>
+
+                            <div class="row">
+
+                               <div class="large-6 medium-6 columns">
+
+                                   <div class="helptabs__panel helptabs__panel--money"><img src="./img/faq_icons/money.svg" alt="Money Icon"><span><b>How</b> much money should I give?</span></div>
+
+                               </div>
+
+                               <div class="large-6 medium-6 columns">
+
+                                   <div class="helptabs__panel helptabs__panel--remove"><img src="./img/faq_icons/remove.svg" alt="Remove Icon"><span><b>Do I</b> have to deposit any money with RoosterMoney?</span></div>
+
+                               </div>
+
+                            </div>
+
+                         </div-->
+                         <!--END white panels-->
+
+                         <!--START main content-->
+                         <div class="row">
+
+                            <aside class="large-3 medium-3 columns">
+
+                               <ul class="helptabs__links">
+                                  <li><a href="#sign-up">Sign-Up</a></li>
+                                  <li><a href="#allowance">Allowance</a></li>
+                                  <li><a href="#boost">Boost</a></li>
+                                  <li><a href="#remove">Remove</a></li>
+                                  <li><a href="#goals">Goals</a></li>
+                                  <li><a href="#savings-goal">Saving Goal</a></li>
+                                  <li><a href="#statements">Statements</a></li>
+                                  <li><a href="#account-settings">Account Settings</a></li>
+                               </ul>
+
+                            </aside>
+
+
+                            <article class="large-8 medium-9 large-offset-1 columns">
+
+                               <!--sign up-->
+                               <h2 id="sign-up-parents">Sign Up</h2>
+                               <h3>Can my child sign up to RoosterMoney?</h3>
+
+                               <p>While RoosterMoney is for everyone, only parents can sign up. Once you’ve signed up, you can add your child to your account. </p>
+
+
+                               <h3>How many children can I sign up under one RoosterMoney account?</h3>
+
+                               <p>There is no limit on the number of children you can sign up under an account.</p>
+
+
+                               <h3>Can I add another parent to a RoosterMoney account?</h3>
+
+                               <p>You will have the opportunity to add other family members in Spring 2016! Until then, if you would like to add another parent (or gran and grandad) to the account, <a href="/contact">you can email us.</a></p>
+
+                               <!--allowance-->
+                               <h2 id="allowance-parents">Allowance</h2>
+                               <h3>How do I set-up or change the allowance I’m giving my child?</h3>
+
+                               <p>From your child’s dashboard, open the settings page.</p>
+                               <p>Select the 'Allowance' button and you will see the details of the allowance you are currently giving your child. Here, you can set the allowance to monthly, weekly or turn it off.</p>
+
+
+                               <h3>How do I suspend my child’s allowance temporarily?</h3>
+
+                               <p>So, say someone happened to smash a greenhouse window, skip homework or make jokes about gran&rsquo;s age&#8230; you can &ldquo;Lock&rdquo; their pocket money temporarily. Although apology letters work well too.</p>
+
+                               <p> From your child's dashboard, open child settings.</p>
+
+                               <p> Click on the 'Lock Allowance' button and you will see the lock will become red. Your child will also see this red lock on their dashboard so they understand what going on.</p>
+
+                               <p> When you&rsquo;re ready to unlock your child's allowance, repeat this process.</p>
+
+
+                              <h2 id="boost-parents">Boost</h2>
+
+
+                              <h3>What is a Boost?</h3>
+                              <p>  A boost is a one off award of money. So, a typical use may be in return for jobs, as a reward for achievements (like an awesome school report) or when grandad gives them a fiver.</p>
+
+                              <p> We keep track of boosts and keep your kids updated on how much they have earned. They can then allocate their money towards the goals they are saving for.</p>
+
+
+                              <h3>How do I edit the reasons for a Boost?</h3>
+
+                              <p>On the Boost reason screen, click &lsquo;Edit&rsquo; button in the top right of the screen.</p>
+
+                              <p> To delete a reason, click on the &lsquo;x&rsquo; displayed next to it.</p>
+
+                              <p> Select &lsquo;Done&rsquo; to save the changes.</p>
+
+
+                              <h3>How do I add a new reason for a Boost?</h3>
+
+                              <p>On the Boost reason screen click &lsquo;Add new reason&rsquo;. This will turn into a text field.</p>
+
+                              <p> Type in your new reason.</p>
+
+                              <p> When you click away from this field the reason will become selected. This new reason will be automatically saved.</p>
+
+
+                              <h2 id="remove-parents">Remove</h2>
+
+
+                              <h3>What is a Remove?</h3>
+
+                              <p>A remove is a one off debit. So, if you&rsquo;re out at the shops and your kids want to get a magazine, present for their friend, or something else- you can check the app, see how much pocket money they have and they can decide if they really want it. If they do, you can &lsquo;remove&rsquo; the money and hand them the cash.</p>
+
+                              <p> Easier for you, empowering for them.</p>
+
+
+                              <h3>How do I edit the reasons for a Remove?</h3>
+
+                              <p>On the Remove reason screen, click &lsquo;Edit&rsquo; button in the top right of the screen.</p>
+
+                              <p> To delete a reason, click on the &lsquo;x&rsquo; displayed next to it.</p>
+
+                              <p> Select &lsquo;Done&rsquo; to save the changes.</p>
+
+
+                              <h3>How do I add a new reason for a Remove?</h3>
+
+                              <p>On the Remove reason screen click &lsquo;Add new reason&rsquo;. This will turn into a text field.</p>
+
+                              <p> Type in your new reason.</p>
+
+                              <p> When you click away from this field the reason will become selected. This new reason will be automatically saved.</p>
+
+
+                              <h2 id="goals-parents">Goals</h2>
+
+
+                              <h3>What is a Goal?</h3>
+
+                              <p>We all have goals we need to save for in life, whether it’s a new pair of trainers or buying our own house. Our Goals feature is a great way to get kids prepared for this and really thinking about the value of money. Both parents and kids can create goals, but it’s up to kids to allocate their pocket money towards them.</p>
+
+
+                              <h3>How do I add a Goal?</h3>
+
+                              <p>  From your child&rsquo;s dashboard, click on &lsquo;Goals&rsquo;.</p>
+
+                              <p> On your child&rsquo;s goal summary card, select the &lsquo;Add Goal&rsquo; button.</p>
+
+                              <p> Enter the details of the goal and select &lsquo;Create Goal&rsquo;.</p>
+
+                              <p> If your child already has six goals, the &lsquo;Add Goal&rsquo; button will not appear. A child can have a maximum of six goals at one time.</p>
+
+
+                              <h3>How do I edit a Goal?</h3>
+
+                              <p>From your child&rsquo;s dashboard, click on &lsquo;Goals&rsquo;.</p>
+
+                              <p> On your child&rsquo;s goal summary card, select the goal which you want to edit.</p>
+
+                              <p> Now on your child&rsquo;s goal card, click the &lsquo;Edit&rsquo; button in the top right of the card.</p>
+
+                              <p> Click on each field to edit the content.</p>
+
+                              <p> To save the changes, select the &lsquo;Save&rsquo; button at the bottom of the card.</p>
+
+                              <p> If you want to delete the goal completely, select the &lsquo;Delete&rsquo; button at the bottom of the card.</p>
+
+
+                              <h3>Can I allocate money to a Goal?</h3>
+
+                              <p>Currently it is only possible for a child to allocate money to a Goal. We think the best lessons are learned when kids are in the driving seat.</p>
+
+                              <p> If you want to allocate their money, you can always log into your child&rsquo;s account with them and allocate money together.</p>
+
+                              <p>  How do I buy an item when my child has completed a goal?</p>
+
+                              <p> Currently, we do not handle orders for items. Once you have approved your child&rsquo;s goal, it is up to you to go and buy the item. This way you can find the best deals and if you do, we allow you to update the price of an item when you confirm the purchase. </p>
+
+
+
+                              <h2 id="savings-goal-parents">Savings Goal</h2>
+
+
+                              <h3>What is a Savings Goal?</h3>
+
+                              <p>We think everyone should squirrel away a bit of their money, so we created a default goal which encourages kids to put a portion of their savings into a saving pot. This feature is best teamed with a real Savings Account. We also have a system to keep track of any money that a child asks you to “Saves Down” into this account.</p>
+
+                              <h3>How do I edit the Savings Goal?</h3>
+
+                              <p>From your child&rsquo;s dashboard, click on &lsquo;Goals&rsquo;.</p>
+
+                              <p> On your child&rsquo;s goal summary card, select the Savings Goal</p>
+
+                              <p> Now on your child&rsquo;s Savings Goal card, click the &lsquo;Edit&rsquo; button in the top right of the card.</p>
+
+                              <p> Click on the amount to edit it.</p>
+
+                              <p> To save the changes, select the &lsquo;Save&rsquo; button at the bottom of the card.</p>
+
+
+                              <h3>Can I delete the Savings Goal?</h3>
+
+                              <p>No way, we’re about saving. You can change the amount though.</p>
+
+
+                              <h3>Can I allocate money to a Savings Goal?</h3>
+
+                              <p>Like normal goals, currently it is only possible for a child to allocate money to a Goal.</p>
+
+                              <p> We suggest that you log into your child&rsquo;s account with them and allocate money together.</p>
+
+
+                              <h3>How do I save the money when my child has completed their Savings Goal?</h3>
+
+                              <p>Currently, we do not handle the deposits. Once you have approved your child&rsquo;s save down, it is up to you to go and deposit the money into your child&rsquo;s savings account. </p>
+
+
+                              <h2 id="statements-parents">Statements</h2>
+
+
+                              <h3>What is the Statement?</h3>
+
+                              <p>Statements are laid out like a good old bank statement, except better of course. Both parents and kids can see all their debits and credits. From Granny&rsquo;s spoiling birthday present to their latest allowance, everyone knows where they are and what&rsquo;s what.</p>
+
+                              <p> How do I view my child&rsquo;s statement for last month?</p>
+
+                              <p> From your child&rsquo;s dashboard, click on &lsquo;Statements&rsquo;.</p>
+
+                              <p> On your child&rsquo;s statement, click on the previous month below the child&rsquo;s total money.</p>
+
+                              <p> To return to the current month, repeat this process. </p>
+
+
+                              <h2 id="account-settings-parents">Account Settings</h2>
+
+
+                              <h3>How do I change my email?</h3>
+
+                              <p>  From your own dashboard, where you see all your children, open the settings.</p>
+
+                              <p> Select the 'Email' button. You will see the email currently attached to your account.</p>
+
+                              <p> Click on the email to edit it.</p>
+
+                              <p> Make sure to save the changes you have made before leaving the page.</p>
+
+
+                              <h3>How do I change my password?</h3>
+
+                              <p>  From your own dashboard where you see all your children, open the settings.</p>
+
+                              <p> Select the 'Password' button.</p>
+
+                              <p> Click on each field to edit the content. Your password needs to be 8 characters and a mixture of numbers and letters (for children it&rsquo;s 4 - [there is more on children&rsquo;s RoosterMoney passwords here] (link to Child Password Settings)</p>
+
+                              <p> Make sure to save the changes you have made before leaving the page.</p>
+
+
+                              <h3>What do I do if I have forgotten my password?</h3>
+
+                              <p>  Open the app and select &lsquo;Login&rsquo;</p>
+
+                              <p> On the login screen, select the &lsquo;Forgotten password?&rsquo; link. You will be taken through the steps to reset your password. We will pop you and email with reset instructions. </p>
+
+
+                              <h3>What do I do if my child has forgotten their password?</h3>
+
+                              <p>From your child&rsquo;s dashboard, open child settings.</p>
+
+                              <p> Select the 'Child&rsquo;s Details' button. You will see you child&rsquo;s details, including their password.</p>
+
+                              <p> Click on their password and edit it to something they can remember.</p>
+
+
+                              <h3>How do I delete a child’s profile from my account?</h3>
+
+                              <p>From your child&rsquo;s dashboard, open child settings.</p>
+
+                              <p> Select the 'Delete Child' button. You will be asked to confirm this decision.</p>
+
+
+                              <h3>How do I delete my account?</h3>
+
+                              <p>Oh no - don&rsquo;t go! If you're experiencing an account or device issue, please let us know so we can help resolve it for you.</p>
+
+                              <p> Help us make it better buy getting in [touch with gripes, grouches or high fives.] [BUTTON / contact form]</p>
+
+                              <p> But if you really want to...</p>
+
+                              <p> From your own dashboard, open account settings.</p>
+
+                              <p> Select the 'Delete Account' button. And that&rsquo;s it. Make sure that you take note of your children&rsquo;s pocket money details as when it&rsquo;s gone, it&rsquo;s gone. </p>
+
+
+
+                              <h3>How do I login as my child?</h3>
+
+                              <p>Useful when you want to allocate their money in goals for them. From your child&rsquo;s dashboard, open child settings.</p>
+
+                              <p> Select the &lsquo;Login as child' button.</p>
+
+                              <p>  After you&rsquo;ve finished, you can logout from your child&rsquo;s dashboard and log back into your version of the app.</p>
+
+                            </article>
+
+                         </div>
+                         <!--END main content-->
+
+
+                      </div>
+                      <div class="content tab-content" id="child">
+
+                        <h1>Top Questions</h1>
+
+
+                         <!--START white panels-->
+                         <!--div class="helptabs__panel--container">
+
+                            <div class="row">
+
+                               <div class="large-6 medium-6 columns">
+
+                                   <div class="helptabs__panel helptabs__panel--allowance"><img src="./img/faq_icons/allowance.svg" alt="Allowance Icon"><span><b>Why</b> should i give Pocket Money?</span></div>
+
+                               </div>
+
+                               <div class="large-6 medium-6 columns">
+
+                                   <div class="helptabs__panel helptabs__panel--boost"><img src="./img/faq_icons/boost.svg" alt="Boost Icon"><span><b>Tips</b> on how to give Pocket Money</span></div>
+
+                               </div>
+
+                            </div>
+
+                            <div class="row">
+
+                               <div class="large-6 medium-6 columns">
+
+                                   <div class="helptabs__panel helptabs__panel--money"><img src="./img/faq_icons/money.svg" alt="Money Icon"><span><b>How</b> much money should I give?</span></div>
+
+                               </div>
+
+                               <div class="large-6 medium-6 columns">
+
+                                   <div class="helptabs__panel helptabs__panel--remove"><img src="./img/faq_icons/remove.svg" alt="Remove Icon"><span><b>Do I</b> have to deposit any money with RoosterMoney?</span></div>
+
+                               </div>
+
+                            </div>
+
+                         </div-->
+                         <!--END white panels-->
+
+                         <!--START main content-->
+                         <div class="row">
+
+                            <aside class="large-3 medium-3 columns">
+
+                               <ul class="helptabs__links">
+                                  <li><a href="#allowance-child">Allowance</a></li>
+                                  <li><a href="#boost-child">Boost</a></li>
+                                  <li><a href="#remove-child">Remove</a></li>
+                                  <li><a href="#goals-child">Goals</a></li>
+                                  <li><a href="#savings-goal-child">Saving Goal</a></li>
+                                  <li><a href="#statements-child">Statements</a></li>
+                                  <li><a href="#account-settings-child">Account Settings</a></li>
+                               </ul>
+
+                            </aside>
+
+
+                            <article class="large-8 medium-9 large-offset-1 columns">
+
+
+
+                               <h2 id="allowance-child">Allowance</h2>
+
+                                 <h3>  What is an allowance? </h3>
+
+                                 <p> An allowance is an amount of money you receive regularly. On RoosterMoney your parent can set this up on a monthly or weekly basis. Once you know how much you are getting, you can plan what you want to save for and how long it will take you. </p>
+
+                                 <h3> How do I see my Allowance details? </h3>
+
+                                 <p> From your dashboard, click &ldquo;settings&rdquo;. You will see the details of your allowance at the bottom of this screen.    How do I know when my Allowance has been Locked?</p>
+
+                                 <p> Uh oh. If your parent has locked your allowance, you will see a lock at the top right of your profile picture on your dashboard. This means that you aren&rsquo;t going to be getting your allowance. </p>
+
+                                 <p> When your allowance is unlocked, the lock will disappear.</p>
+
+
+
+
+                                 <h2 id="boost-child"> Boost </h2>
+
+                                 <h3>  What is a Boost? </h3>
+
+                                 <p> A boost is a one off award of money. You could get this for a job you&rsquo;ve completed, as a reward for achievements (like an awesome school report), or when grandad gives you a fiver.</p>
+
+                                 <p> We keep track of boosts and update you on how much you have earned. You can then add your money towards the goals you are saving for. </p>
+
+
+
+
+
+                                 <h2 id="remove-child"> Remove </h2>
+
+                                 <h3> What is a Remove? </h3>
+
+                                 <p> A remove is what boring people call a &ldquo;debit&rdquo;. So, if you&rsquo;re out at the shops and want to get a magazine, present for your friend, or something else- you can check your account, see how much pocket money you have and decide if you really want to get it. If you do, get your parent to &lsquo;&lsquo;remove&rsquo; the money and give you the cash. Simples. </p>
+
+
+
+
+                                 <h2 id="goals-child"> Goals</h2>
+
+                                 <h3> What is a Goal? </h3>
+
+                                 <p> We all have goals we need to save for in life, whether it&rsquo;s a new pair of trainers or something slightly bigger- like a house. The good news, is that it&rsquo;s up to you what you save for. Once you&rsquo;ve decided, you can create a goal, add an image, amount and even a URL. Then you can add any money you receive towards the goal and when you have reached it, you can send it off for your parents to get!</p>
+
+                                 <h3>  How do I add a Goal? </h3>
+
+                                 <p> From your dashboard, click on &lsquo;Goals&rsquo;. </p>
+
+                                 <p> On your goal summary card, select the &lsquo;Add Goal&rsquo; button. </p>
+
+                                 <p> Enter the details of the goal and select &lsquo;Create Goal&rsquo;. </p>
+
+                                 <p> If you already have six goals, the &lsquo;Add Goal&rsquo; button will not appear. It is only possible to have a maximum of six goals at one time. </p>
+
+                                 <h3>  How do I edit a Goal? </h3>
+
+                                 <p> From your dashboard, click on &lsquo;Goals&rsquo;.</p>
+
+                                 <p> On your goal summary card, select the goal which you want to edit. </p>
+
+                                 <p> Now on your goal card, click the &lsquo;Edit&rsquo; button in the top right of the card. </p>
+
+                                 <p> Click on each field to edit the content.</p>
+
+                                 <p> To save the changes, select the &lsquo;Save&rsquo; button at the bottom of the card.</p>
+
+                                 <p> If you want to delete the goal completely, select the &lsquo;Delete&rsquo; button at the bottom of the card. </p>
+
+                                 <h3>  How do I add money to a Goal? </h3>
+
+                                 <p> From your dashboard, click on &lsquo;Goals&rsquo;.</p>
+
+                                 <p> On your goal summary card, select the goal which you want to add money to. </p>
+
+                                 <p> Now on your goal card, click the &lsquo;Add&rsquo; button. </p>
+
+
+
+                                 <h2 id="savings-goal-child">  Savings Goal </h2>
+
+                                 <h3> What is the Savings Goal?</h3>
+
+                                 <p> Some people hide their money in a mattress. Others put it in a hole (no, seriously some people do). Either way we think everyone should squirrel away a bit of their money, so we created a special Saver Goal. You can put a portion of your hard earned money towards it and then you can &lsquo;Save Down&rsquo; into a Saving Account (if your parent&rsquo;s haven&rsquo;t set one up yet- just ask them!). </p>
+
+                                 <h3>  How do I edit the Savings Goal?</h3>
+
+                                 <p> From your dashboard, click on &lsquo;Goals&rsquo;.</p>
+
+                                 <p> On your goal summary card, select the Savings goal </p>
+
+                                 <p> Now on your savings goal card, click the &lsquo;Edit&rsquo; button in the top right of the card. </p>
+
+                                 <p> Click on the amount to edit it.</p>
+
+                                 <p> To save the changes, select the &lsquo;Save&rsquo; button at the bottom of the card.</p>
+
+                                 <h3>  Can I delete the Savings Goal? </h3>
+
+                                 <p> It is not possible to delete the Savings goal. </p>
+
+                                 <h3>  How do I add money to the Savings Goal? </h3>
+
+                                 <p> From your dashboard, click on &lsquo;Goals&rsquo;.</p>
+
+                                 <p> On your goal summary card, select the Savings goal. </p>
+
+                                 <p> Now on your goal card, click the &lsquo;Add&rsquo; button. </p>
+
+
+
+                                 <h2 id="statements-child">  Statements</h2>
+
+                                 <h3>  What is a Statement? </h3>
+
+                                 <p> The Statement is an overview of all the money coming in and going out of your account. From your birthday presents to your latest allowance, it helps you and your parents to know what&rsquo;s what. </p>
+
+                                 <h3>  How do I view my statement for last month?</h3>
+
+                                 <p> From your dashboard, click on &lsquo;Statements&rsquo;.</p>
+
+                                 <p> On your statement, click on the previous month below your total money.</p>
+
+                                 <p> To return to the current month, repeat this process. </p>
+
+
+
+                                 <h2 id="account-settings-child">  Account Settings</h2>
+
+                                 <h3>  How do I change my username?  </h3>
+
+                                 <p>From your dashboard, open settings, the cog icon. </p>
+
+                                 <p> Select the 'My Account Details' button. You will see the details currently attached to your account. </p>
+
+                                 <p> Click on each field to edit it. </p>
+
+                                 <p> Make sure to save the changes you have made before leaving the page.</p>
+
+
+
+                                 <h3 id="password-child"> How do I change my password?</h3>
+
+                                 <p> From your dashboard, open settings, the cog icon. </p>
+
+                                 <p> Select the 'My Account Details' button. You will see the details currently attached to your account. </p>
+
+                                 <p> Click on each field to edit it. </p>
+
+                                 <p> Make sure to save the changes you have made before leaving the page.</p>
+
+
+                                 <h3>  What do I do if I&rsquo;ve forgotten my password?</h3>
+
+                                 <p> Open the app and select &lsquo;Login&rsquo; </p>
+
+                                 <p> On the login screen, select the &lsquo;Forgotten password?&rsquo; link. You will be taken through the steps to reset your password.</p>
+
+                            </article>
+
+                         </div>
+                         <!--END main content-->
+
+                      </div>
+                    </div>
+
+                 </div>
+
+              </div>
+
+          </article>
+          <!--end tabbed section-->
+
+
+
+     </section>
+
+
+
+
+     <!--START footer-->
+     <footer class="footer" id="jsFooterHook">
+
+        <div class="row">
+
+          <div class="large-3 medium-3 columns">
+
+             <!--list of footer links-->
+             <ul class="footer__list">
+               <li class="footer__list--title"><a href="https://roostermoney.com">RoosterMoney</a></li>
+               <li class="footer__list--item"><a href="/about">About Us</a></li>
+               <li class="footer__list--item"><a href="/help">FAQ</a></li>
+               <li class="footer__list--item"><a href="/blog">Blog</a></li>
+               <li class="footer__list--item"><a href="/contact">Contact Us</a></li>
+             </ul>
+             <!--END list if footer links-->
+
+          </div>
+          <div class="large-3 medium-3 columns">
+
+             <!--list of footer links-->
+             <ul class="footer__list">
+               <li class="footer__list--title"><a href="/resources">RoosterMoney</a></li>
+               <li class="footer__list--item"><a href="#_">Average Pocket Money</a></li>
+               <li class="footer__list--item"><a href="#_">Pocket Money Reward Chart</a></li>
+               <li class="footer__list--item"><a href="#_">Games and Rooster Village</a></li>
+             </ul>
+             <!--END list if footer links-->
+
+          </div>
+          <div class="large-3 medium-3 columns">
+
+             <!--list of footer links-->
+             <ul class="footer__list">
+               <li class="footer__list--title">Legal Bits</li>
+               <li class="footer__list--item"><a href="/terms">Terms and Conditions</a></li>
+               <li class="footer__list--item"><a href="/privacy">Privacy Policy</a></li>
+             </ul>
+             <!--END list if footer links-->
+
+          </div>
+          <div class="large-3 medium-3 columns">
+
+             <!--play and app store btns-->
+             <div class="footer__download">
+
+                <p class="footer__list--title">Download the App for Free</p>
+
+                <ul class="footer__download--list btn white">
+                   <li class="footer__download--app"><img src="./img/appstore_icons/appstore-white.svg" alt="Download from the App Store"></li>
+                   <li class="footer__download--divider"></li>
+                   <li class="footer__download--play"><img src="./img/play_icons/playstore-white.svg" alt="Download from the Play Store"></li>
+                </ul>
+
+                <ul class="footer__download--list copy">
+                   <li class="footer__download--app"><p>App Store</p></li>
+                   <li class="footer__download--play"><p>Play Store</p></li>
+                </ul>
+             </div>
+             <!--END play and app store buttons-->
+
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="large-12 columns">
+             <div class="footer__border"></div>
+          </div>
+        </div>
+
+        <!--START badges and small print-->
+        <div class="row">
+          <div class="large-12 columns">
+             <p><small>&#169; 2015 RoosterMoney</small></p>
+          </div>
+        </div>
+        <!--END badges and small print-->
+
+     </footer>
+     <!--END footer-->
+
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="./js/vendor/hoverIntent.js"></script>
+    <script src="//cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script src="js/app.js"></script>
+
+
+
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-71294033-1', 'auto');
+    ga('send', 'pageview');
+
+   </script>
+  </body>
+</html>

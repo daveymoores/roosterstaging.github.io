@@ -1,0 +1,115 @@
+//buttons
+//base button styles
+
+
+.btn {
+   color: rgba(0, 0, 0, 0.6);
+   font-weight: normal;
+   border-radius: 0.5rem;
+   text-shadow: none !important;
+   font-weight: bold;
+   vertical-align: middle;
+   padding: 0.85em 1.2em 0.7em;
+   display: block;
+   text-align: center;
+   line-height: 30px;
+   box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.6);
+   -o-transition:background .2s ease-out;
+   -ms-transition:background .2s ease-out;
+   -moz-transition:background .2s ease-out;
+   -webkit-transition:background .2s ease-out;
+   cursor: pointer;
+   border: none;
+
+   &.white {
+      box-shadow: 0px 0px 0px 2px palette(white);
+      color: white;
+   }
+
+   &.teal {
+      background-color: palette(teal);
+      box-shadow: 0px 0px 0px 2px palette(teal);
+      box-shadow: none;
+
+      &:hover {
+      cursor: pointer;
+      background-color: scale-color(palette(teal), $lightness: -11%);
+      }
+   }
+
+   &.rust {
+      background-color: palette(rust);
+      box-shadow: 0px 0px 0px 2px palette(rust);
+      box-shadow: none;
+
+      &:hover {
+      cursor: pointer;
+      background-color: scale-color(palette(rust), $lightness: -11%);
+      }
+   }
+
+   &.darkblue {
+      background-color: palette(core-blue, dark);
+      box-shadow: 0px 0px 0px 2px palette(core-blue, dark);
+      box-shadow: none;
+
+      &:hover {
+      cursor: pointer;
+      background-color: scale-color(palette(core-blue), $lightness: -11%);
+      }
+   }
+
+   &.blue {
+      background-color: palette(core-blue, light);
+      box-shadow: 0px 0px 0px 2px palette(core-blue, light);
+      width: 250px;
+      box-shadow: none;
+
+      &:hover {
+      cursor: pointer;
+      background-color: scale-color(palette(core-blue, light), $lightness: -11%);
+      }
+   }
+
+   &.rounded {
+      border-radius: 2rem;
+      text-transform: uppercase;
+   }
+
+   &.round {
+      width: 55px;
+      height: 55px;
+      padding: 0px;
+      border-radius: 50%;
+
+      img {
+         width: 22px;
+         margin-top: 19px;
+
+         &.facebook {
+            width: 13px;
+            margin-top: 16px;
+         }
+      }
+   }
+
+
+   &.green {
+      background-color: palette(core-green);
+      box-shadow: none;
+      border-radius: 0px;
+      -webkit-border-bottom-right-radius: 5px;
+      -webkit-border-bottom-left-radius: 5px;
+      -moz-border-radius-bottomright: 5px;
+      -moz-border-radius-bottomleft: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border: none;
+      width: 100%;
+
+      &:hover {
+      cursor: pointer;
+      background-color: scale-color(palette(core-green), $lightness: -11%);
+      }
+   }
+}

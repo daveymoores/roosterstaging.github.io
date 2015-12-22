@@ -1,0 +1,100 @@
+//base styles
+
+body {
+   font-size: 0.9rem;
+   background-color: palette(grey);
+   width: 100%;
+   position: relative;
+   overflow-x: hidden;
+}
+
+a {
+   text-decoration: none;
+}
+
+p {
+   a {
+      color: palette(core-red);
+      font-weight: bold;
+      -o-transition:color .2s ease-out;
+      -ms-transition:color .2s ease-out;
+      -moz-transition:color .2s ease-out;
+      -webkit-transition:color .2s ease-out;
+
+      &:hover {
+         color: palette(core-red, dark);
+      }
+   }
+}
+
+h4 {
+   a {
+      color: palette(core-red);
+      font-weight: bold;
+      -o-transition:color .2s ease-out;
+      -ms-transition:color .2s ease-out;
+      -moz-transition:color .2s ease-out;
+      -webkit-transition:color .2s ease-out;
+
+      &:hover {
+         color: palette(core-red, dark);
+      }
+   }
+}
+
+.content {
+   margin-top: 50px;
+
+   h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+   }
+}
+
+.list-title {
+   font-size: 1.2rem;
+   font-weight: bold;
+   margin-top: 20px;
+
+   p {
+      font-size: 1.2rem;
+      font-weight: bold;
+   }
+}
+
+//blockquote override ----------
+
+.quote {
+   margin: 30px 15%;
+   width: 70%;
+   position: relative;
+
+   &__speechmark {
+      background: transparent url(../img/speechmark/quote-icon.svg) top left no-repeat;
+      height: 30px;
+      width: 30px;
+      display: block;
+      position: absolute;
+      left: -40px;
+
+      &::after {
+         content: "";
+         display: block;
+         height: 100%;
+      }
+
+   }
+
+}
+
+
+//basic text styles ------------
+
+
+.centered {
+   text-align: center;
+}
+
+.title {
+   margin-bottom: 40px;
+}
